@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "waterbuddy.Domain", "Core\waterbuddy.Domain\waterbuddy.Domain.csproj", "{A566B17A-BF2E-4BB9-92BE-6F650C7A3BD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "waterbuddy.Application", "Core\waterbuddy.Application\waterbuddy.Application.csproj", "{3323BAFD-57CD-4E08-A2AC-7A8F4CDFF3FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "waterbuddy.Persistence", "Infrastructure\waterbuddy.Persistence\waterbuddy.Persistence.csproj", "{075B7D64-9132-48D9-B710-0387A7436518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "waterbuddy.Api", "Presentation\waterbuddy.Api\waterbuddy.Api.csproj", "{588E192A-1F8E-4915-8517-467297AE7662}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A566B17A-BF2E-4BB9-92BE-6F650C7A3BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A566B17A-BF2E-4BB9-92BE-6F650C7A3BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A566B17A-BF2E-4BB9-92BE-6F650C7A3BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A566B17A-BF2E-4BB9-92BE-6F650C7A3BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3323BAFD-57CD-4E08-A2AC-7A8F4CDFF3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3323BAFD-57CD-4E08-A2AC-7A8F4CDFF3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3323BAFD-57CD-4E08-A2AC-7A8F4CDFF3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3323BAFD-57CD-4E08-A2AC-7A8F4CDFF3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075B7D64-9132-48D9-B710-0387A7436518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075B7D64-9132-48D9-B710-0387A7436518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075B7D64-9132-48D9-B710-0387A7436518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075B7D64-9132-48D9-B710-0387A7436518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588E192A-1F8E-4915-8517-467297AE7662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588E192A-1F8E-4915-8517-467297AE7662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588E192A-1F8E-4915-8517-467297AE7662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588E192A-1F8E-4915-8517-467297AE7662}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

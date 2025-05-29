@@ -1,0 +1,6 @@
+@waterbuddy.Api_HostAddress = http://localhost:5153
+
+GET {{waterbuddy.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

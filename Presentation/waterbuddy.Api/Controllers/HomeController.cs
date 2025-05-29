@@ -1,6 +1,15 @@
-namespace waterbuddy.Api.Controllers;
+using Microsoft.AspNetCore.Mvc;
 
-public class HomeController
+namespace waterbuddy.Api.Controllers
 {
-    
+    [ApiController]
+    [Route("api/[controller]")]
+    public class HomeController : ControllerBase
+    {
+        [HttpGet]
+        public string Get()
+        {
+            return "Test Endpoint";
+        }
+    }
 }
